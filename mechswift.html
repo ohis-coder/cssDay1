@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Mechswift-Mechspace: Car Care: Available and Accessible for all</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="firstH1">MECHSWIFT-MECHSPACE</h1>
+            <p> Car Care: Available and Accessible for all</p>
+            <nav>
+                <ul>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#ourVision">Our Vision</a></li>
+                    <li><a href="#ourFounders">Our Founders</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="aboutUs">
+                <h3>About Us</h3>
+                <article>
+                    <p class="yadaSpeech">This Part talks about our company, how founded, when founded, what we are about</p>
+                </article>
+            </section>
+            <section id="ourVision">
+                <h3> Our Vision</h3>
+                <article>
+                    <p class="yadaSpeech">This part talks about where we are going, not just the features but job creation and overall price stabilization</p>
+                </article>
+            </section>
+            <section id="ourFounders">
+                    <h3>Our Founders</h3>
+                    <table border="1" class="yadaSpeech"><tr>
+                        <th>Name</th>
+                        <th>Social Media</th>
+                        <th>Position</th>
+                    </tr>
+                    <tr>
+                        <td>Emode Ohimai</td>
+                        <td><a href="https://x.com/cxx_23" target="_blank">Find Me On X</a></td>
+                        <td>CTO</td>
+                    </tr>
+                    <tr>
+                        <td>Sobande Seun</td>
+                        <td>NILL</td>
+                        <td>NILL</td>
+                    </tr>
+                    </table>
+            </section>
+            <section id="contactUs">
+                <h3>Contact Us</h3>
+                <p>You can reach us at<a href="mailto:emodexohimai@gmail.com"> our mail</a></p>
+            </section>
+            <section id="careers" >
+                <h3>Want to work with us?</h3>
+                <p>Fill in the form below appropriately for a shot at an interview</p>
+                <form action="/submit-application" method="post" class="yadaSpeech">
+                    <div>
+                        <label for="fullName">What is your name?</label> 
+                        <input type="text" id="fullName" name="fullName" placeholder="First Name + Last Name" required>
+                    </div>
+                    <div>
+                        <label for="emailAddress">What is your mail?</label>
+                        <input type="email" id="emailAddress" name="emailAddress" placeholder="example@example.com" required>
+                    </div>
+                    <div>
+                        <label for="certification">Kinda neccesary(not)</label>
+                        <select id="certification" name="certification" required>
+                            <option value="">-----Pick One-----</option>
+                            <option value="ssce">WAEC/NECO/GCE</option>
+                            <option value="undergrad">Still Schooling</option>
+                            <option value="grad">2:1</option>
+                            <option value="grad">2:2</option>
+                            <option value="grad">Third Class</option>
+                            <option value="grad">Other Grades</option>
+                            <option value="noFormalEdu">No Formal Education</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="whyHireYou">Why Should We Hire You?</label>
+                        <textarea id="whyHireYou" name="whyHireYou" rows="7" cols="60" placeholder="Brag.." required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit Application</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Mechswift-Mechspace 2021</p>
+            <p>Reach us<a href="mailto:emodexohimai@gmail.com">here</a></p>
+        </footer>
+    </body>
+</html>

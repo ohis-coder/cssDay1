@@ -1,0 +1,33 @@
+body{
+    background-color:paleturquoise;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+header > p{
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.yadaSpeech{
+    background-color: rgba(130, 144, 63, 0.444);
+    font-family: cursive;
+}
+
+
