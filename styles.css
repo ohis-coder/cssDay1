@@ -9,6 +9,18 @@ h1{
     font-weight: bolder;
 }
 
+header > nav > ul > li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    width: 100px;
+}
+
+header > nav > ul > li > a{
+    color: green;
+    text-decoration: none;
+}
+
 header > p{
     text-align: center;
     font-family: cursive, sans-serif;
