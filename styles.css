@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color:paleturquoise;
 }
@@ -25,23 +31,43 @@ h1{
     font-weight: bolder;
 }
 
-header > nav > ul > li{
-    display: inline-block;
-    padding: 5px 15px;
-    margin: 5px;
-    width: 100px;
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
 }
 
-header > nav > ul > li > a{
+nav a{
     color: green;
     text-decoration: none;
 }
 
-header > p{
+header p{
     text-align: center;
     font-family: cursive, sans-serif;
     font-size: large;
     font-weight: bold;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cardContainers{
+    background-color: brown;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    overflow: auto;
 }
 
 p{
