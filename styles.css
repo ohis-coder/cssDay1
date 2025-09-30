@@ -107,3 +107,39 @@ footer p{
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
+@media (max-width: 768px) {
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardContainers {
+        background-color: green;
+        transition: background-color 0.3s  ease-in-out;
+    }
+
+    .cardContainers:hover {
+        background-color: aliceblue;
+    }
+
+    header {
+        background-color: yellow;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    header:hover {
+        background-color: aquamarine;
+    }
+
+
+}
